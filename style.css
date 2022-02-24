@@ -38,6 +38,10 @@ form > * > * {
     width: 100%;
 }
 
+.stack > * + * {
+    margin-top: 32px;
+}
+
 
 /* ---- layout ---- */
 
@@ -77,5 +81,6 @@ input::placeholder {
     background: rgb(89,189,224);
     background: linear-gradient(270deg, rgba(89,189,224,1) 0%, rgba(125,111,231,1) 50%, rgba(203,61,243,1) 100%);
 }
+
 
 /* ---- main ---- */
