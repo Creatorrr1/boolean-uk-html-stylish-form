@@ -9,43 +9,61 @@
     <title>Styling Form</title>
   </head>
   <body>
+          <!-- center wrapper and border -->
     <form class="center-wrapper border-blue margin-md">
+          <!-- center wrapper and border -->
       <main class="center stack">
           <h1>Say Hello!</h1>
-          <label for="name">Your name </label>
-          <input type="text" name="name" id="name" placeholder="Enter your name" minlength="3" maxlength="20">
-          <br></br>
-          <label for="email">Email </label>
-          <input type="email" name="email" id="email" placeholder="Type email in"/>
+          <!-- name starts -->
+          <div class="gap-md">
+            <label for="name"><h3>Your name </h3></label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" minlength="3" maxlength="20">
+            <!-- name ends -->
+          </div>
+          <br/>
+          <!-- email starts -->
+          <div class="gap-md">
+            <label for="email"><h3>Email </h3></label>
+            <input type="email" name="email" id="email" placeholder="Type email in"/>
+          </div>
+          <!-- email ends -->
+          <!-- service section starts -->
           <label for="services"><h3>Needed Services</h3></label>
           <select name="services" id="services" required>
-              <option value="">Choose Services...</option>
-              <option value="Flight Booking">Flight Booking</option>
-              <option value="Hotel Booking">Hotel Booking</option>
-              <option value="Attractions and Activity Booking">Attractions and Activity Booking</option>
-            </select>
-            <div>
+            <option value="">Choose Services...</option>
+            <option value="Flight Booking">Flight Booking</option>
+            <option value="Hotel Booking">Hotel Booking</option>
+            <option value="Attractions and Activity Booking">Attractions and Activity Booking</option>
+          </select>
+          <!-- server section ends -->
+          <div class="gap-md">
+            <!-- budget -->
+            
             <label for="budget"><h3>Budget </h3></label>
-             <select name="budget" id="budget" required>
-               <option value="">Select Budget</option>
-               <option value="£100-£500">£100-£500</option>
-               <option value="£500-£1000">£500-£1000</option>
-               <option value="£1000-£1500">£1000-£1500</option>
-               <option value="£1500+ ">£1500+ </option>
-              </select>
-            </div>
-            <div>
-              <label for="message"></label>
-              <input type="text" name="message" id="message" placeholder="Your message here..."/>
-            </div>
-          
-            <div>
-                <input type="checkbox" name="terms" id="terms" required/>
-                <label for="terms">I accept the <a>Terms & Conditons</a>.</label>
-                <h3></h3>
-            </div>
-                <button type="submit">Submit</button>
+            <select name="budget" id="budget" required>
+              <option value="">Select Budget</option>
+              <option value="£100-£500">£100-£500</option>
+              <option value="£500-£1000">£500-£1000</option>
+              <option value="£1000-£1500">£1000-£1500</option>
+              <option value="£1500+ ">£1500+ </option>
+            </select>
+            
+            <!-- budget -->
+          </div>
+          <div class="gap-md">
+            <!-- message starts -->
+            <label for="message"><h3>Message</h3></label>
+            <input type="text" name="message" id="message" placeholder="Your message here..." class="margin-text-gap"/>
+          </div>
+          <!-- message ends -->
+          <div class="gap-md">
+            <input type="checkbox" name="terms" id="terms" required/>
+            <label for="terms">I accept the <a>Terms & Conditons</a>.</label>
+            <h3></h3>
+          </div>
+          <button type="submit" id="submit-button">Submit</button>
+
         </form>
-    </main>
-  </body>
-</html>
+      </main>
+    </body>
+    </html>
