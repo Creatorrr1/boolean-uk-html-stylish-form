@@ -17,14 +17,14 @@
           <!-- name starts -->
           <div class="gap-md">
             <label for="name"><h3>Your name </h3></label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" minlength="3" maxlength="20">
-            <!-- name ends -->
+            <input type="text" name="name" id="name" placeholder="Enter your name" minlength="3" maxlength="20" required/>
+          <!-- name ends -->
           </div>
           <br/>
           <!-- email starts -->
           <div class="gap-md">
             <label for="email"><h3>Email </h3></label>
-            <input type="email" name="email" id="email" placeholder="Type email in"/>
+            <input type="email" name="email" id="email" placeholder="Type email in" required/>
           </div>
           <!-- email ends -->
           <!-- service section starts -->
@@ -37,7 +37,7 @@
           </select>
           <!-- server section ends -->
           <div class="gap-md">
-            <!-- budget -->
+          <!-- budget -->
             
             <label for="budget"><h3>Budget </h3></label>
             <select name="budget" id="budget" required>
@@ -48,21 +48,22 @@
               <option value="£1500+ ">£1500+ </option>
             </select>
             
-            <!-- budget -->
+          <!-- budget -->
           </div>
           <div class="gap-md">
-            <!-- message starts -->
+          <!-- message starts -->
             <label for="message"><h3>Message</h3></label>
             <input type="text" name="message" id="message" placeholder="Your message here..." class="margin-text-gap"/>
           </div>
           <!-- message ends -->
           <div class="gap-md">
-            <input type="checkbox" name="terms" id="terms" required/>
+            <input type="checkbox" name="terms" id="terms" class="cursor-pointer" required/>
             <label for="terms">I accept the <a>Terms & Conditons</a>.</label>
             <h3></h3>
           </div>
-          <button type="submit" id="submit-button">Submit</button>
-
+          <a href="/Loading.html">
+            <button type="submit" id="submit-button">Submit</button>
+          </a>
         </form>
       </main>
     </body>

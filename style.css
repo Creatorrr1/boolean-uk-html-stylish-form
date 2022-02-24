@@ -70,9 +70,18 @@ input::placeholder {
     color: 	#D3D3D3;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
 #submit-button {
     width: 100%;
     padding: 12px 0px;
+    cursor: pointer;
 
     color: white;
 
