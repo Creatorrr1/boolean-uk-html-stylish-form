@@ -1,0 +1,17 @@
+Milestones:
+1. add main sections
+2. Complete the HTML first before you move on to CSS
+3. implement center wrapper and use border to visualise it
+4. Use min-height and max-height and maybe fixed height
+5. Add CSS styling and finish it off with the background.
+
+
+PROCESS
+1. implement each milestone one by one
+2. do not move onto the next milestone until the previous is completed
+3. if you're stuck for more than 20 minutes without making progress, then that's when we jump into a support call (ticket)
+4. if you are spending a long time on a section, but are making progress, that's good
+5. use simple elements (a div that has a border and fixed size, to SIMULATE a specific component
+
+FOCUS
+1. Focus on one thing at a time
